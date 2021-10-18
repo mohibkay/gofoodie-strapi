@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "toppings",
+  "info": {
+    "name": "Toppings"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "enumeration",
+      "enum": [
+        "Capsicum",
+        "Paneer",
+        "Red_Paprika",
+        "Onions",
+        "Extra_Cheese",
+        "Mushroom",
+        "Baby_Corns"
+      ]
+    },
+    "price": {
+      "type": "decimal"
+    }
+  }
+}

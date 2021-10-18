@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/toppings",
+      "handler": "toppings.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/toppings/count",
+      "handler": "toppings.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/toppings/:id",
+      "handler": "toppings.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/toppings",
+      "handler": "toppings.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/toppings/:id",
+      "handler": "toppings.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/toppings/:id",
+      "handler": "toppings.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
